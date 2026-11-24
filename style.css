@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.top-rectangle {
+    background-color: #4D4082;
+    height: 2rem;
+}
+
+.bottom-rectangle {
+    background-color: #19017B;
+    padding: 0.5rem 2rem;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+}
+
+.hamburger:focus-visible,
+.header-right a:focus-visible,
+.nav-rectangle a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
+.free-entry-btn {
+    color: white;
+    text-decoration: underline solid white;
+}
+
+.orange-btn {
+    background-color: #FFAA00;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.1rem;
+    display: inline-block;
+}
+
+.orange-btn:hover {
+    background-color: darkorange;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-rectangle {
+    display: none;
+    background-color: white;
+    padding: 1rem 2rem;
+}
+
+.nav-rectangle.is-open {
+    display: block;
+}
+
+.nav-rectangle ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nav-rectangle a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-rectangle a:focus-visible {
+    outline: 2px solid black;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
+.hero {
+    display: block;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* DESKTOP */
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-rectangle {
+        display: block;
+        padding: 0.75rem 2rem;
+    }
+
+    .nav-rectangle ul {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
