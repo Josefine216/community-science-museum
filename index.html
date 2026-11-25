@@ -1,111 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage Community Science Museum</title>
-    <meta name="description" content="Welcome to the Community Science Museum!">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage Community Science Museum</title>
+        <meta name="description" content="Welcome to the Community Science Museum!">
 
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css"> 
-    <script src="script.js" defer></script>
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css"> 
+        <script src="script.js" defer></script>
+    </head>
 
-<body>
+    <body>
 
-    <header class="header">
-        <div class="top-rectangle"></div>
+        <header class="header">
+            <div class="top-rectangle"></div>
 
-        <div class="bottom-rectangle">
-            <div class="header-left">
-                <button 
-                    type="button" 
-                    class="hamburger" 
-                    aria-expanded="false" 
-                    aria-controls="main-nav" 
-                    aria-label="Open navigation menu"
-                >
-                    ☰
-                </button>
+            <div class="bottom-rectangle">
+                <div class="header-left">
+                    <button 
+                        type="button" 
+                        class="hamburger" 
+                        aria-expanded="false" 
+                        aria-controls="main-nav" 
+                        aria-label="Open navigation menu"
+                    >
+                        ☰
+                    </button>
 
-                <div class="logo">
-                    <p>Science <br> Museum</p>
+                    <div class="logo">
+                        <p>Science <br> Museum</p>
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <a href="free-entry.html" class="free-entry-btn">
+                        <p>Free entry</p>
+                    </a>
+                    <a href="support-us.html" class="orange-btn">
+                        <p>SUPPORT US</p>
+                    </a>
                 </div>
             </div>
 
-            <div class="header-right">
-                <a href="free-entry.html" class="free-entry-btn">
-                    <p>Free entry</p>
-                </a>
-                <a href="support-us.html" class="orange-btn">
-                    <p>SUPPORT US</p>
-                </a>
-            </div>
-        </div>
-
-        <nav id="main-nav" class="nav-rectangle">
-            <ul>
-                <li><a href="see-and-do.html">See and do</a></li>
-                <li><a href="guided-tour.html">Guided tour</a></li>
-                <li><a href="school-groups.html">School / Groups</a></li>
-                <li><a href="cafe.html">Café</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="newsletter.html">Newsletter</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <div class="hero-img">
-            <img src="images/scientific-2040795_1280.jpg" class="hero-img-top" alt="Scientific image of a woman beside a machine">
-
-            <div class="hero-bottom">
-                <img src="images/mammoth-1257288_1920.jpg" class="hero-img-bottom" alt="The skeleton of a mammoth">
-                <a href="special-events.html" class="orange-btn hero-mobile-btn">SPECIAL EVENTS</a>
-            </div>
-        </div>
-
-        <div class="hero-text">
-            <h1>Experience,<br>explore<br>and learn</h1>
-        </div>
-    </section>
-
-    <main>
-
-    </main>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-col">
-                <h2>Community Science Museum</h2>
-                <p><a href="opening-times.html">See opening times</a></p>
-                <p>(Address)</p>
-                <p>(Org. nr:)</p>
-                <p>(Phone nr)</p>
-            </div>
-
-            <div class="footer-col">
-                <h2>THE MUSEUM</h2>
+            <nav id="main-nav" class="nav-rectangle">
                 <ul>
-                    <li><a href="contact.html">Contact us</a></li>
-                    <li><a href="venue-hire.html">Venue hire</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="see-and-do.html">See and do</a></li>
+                    <li><a href="guided-tour.html">Guided tour</a></li>
+                    <li><a href="school-groups.html">School / Groups</a></li>
+                    <li><a href="cafe.html">Café</a></li>
+                    <li><a href="shop.html">Shop</a></li>
                     <li><a href="newsletter.html">Newsletter</a></li>
                 </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-img">
+                <img src="images/scientific-2040795_1280.jpg" class="hero-img-top" alt="Scientific image of a woman beside a machine">
+
+                <div class="hero-bottom">
+                    <img src="images/mammoth-1257288_1920.jpg" class="hero-img-bottom" alt="The skeleton of a mammoth">
+                    <a href="special-events.html" class="orange-btn hero-mobile-btn">
+                        <p>SPECIAL EVENTS</p>
+                    </a>
+                </div>
             </div>
 
-            <div class="footer-col">
-                <h2>SHORTCUTS</h2>
-                <ul>
-                    <li><a href="articles.html">Articles</a></li>
-                    <li><a href="accessibility.html">Accessibility</a></li>
-                    <li><a href="terms.html">Terms and conditions</a></li>
-                    <li><a href="cookies.html">Cookies</a></li>
-                </ul>
+            <div class="hero-text">
+                <h1>Experience,<br>explore<br>and learn</h1>
             </div>
-    </div>
-</footer>
+        </section>
+
+        <main>
+            <section class="info-banner"> 
+                <a href="opening-times.html">OPENING TIMES</a>
+                <a href="find-us.html">FIND US</a>
+            </section>
+
+            <section class="exhibitions">
+                <h2>Exhibition spaces</h2>
+
+                <div class="exhibition-grid">
+                    <article class="exhibition-card">
+                        <img src="images/exhibition-1863344_1920.jpg" alt="Cosmology">
+                        <div class="exhibition-card-content">
+                            <h3>COSMOLOGY</h3>
+                            <p>Explore the wonders of our cosmos. Our fantastic exhibition, 'The Sky Above Us', explores the..</p>
+                            <a href="cosmology.html" class="purple-btn"> 
+                                <p>READ MORE</p>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="exhibition-card">
+                        <img src="images/roberto-nickson-396152.jpg" alt="Mammoth statue">
+                        <div class="exhibition-card-content">
+                            <h3>EVOLUTION</h3>
+                            <p>For centuries, philosophers and scientists have wrestled with the question of our origins. Where..</p>
+                            <a href="evolution.html" class="purple-btn"> 
+                                <p>READ MORE</p>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="exhibition-card">
+                        <img src="images/people-219985_1280.jpg" alt="Biology and medicine">
+                        <div class="exhibition-card-content">
+                            <h3>BIOLOGY & MEDICINE</h3>
+                            <p>From micro-organisms to the human body, major breakthroughs in biology are offering us unique..</p>
+                            <a href="biology.html" class="purple-btn"> 
+                                <p>READ MORE</p>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="exhibition-card">
+                        <img src="images/billetto-editorial-334686.jpg" alt="Robotics and AI">
+                        <div class="exhibition-card-content">
+                            <h3>ROBOTICS & AI</h3>
+                            <p>The information revolution is here and robotics and artificial intelligence are the science of the..</p>
+                            <a href="robotics.html" class="purple-btn"> 
+                                <p>READ MORE</p>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="section-cta">
+                    <a href="see-and-do.html" class="purple-btn"> 
+                        <p>SEE ALL EXHIBITION SPACES</p>
+                    </a>
+                </div>
+            </section>
+
+            <article class="guided-tours">
+                <h2>GUIDED TOURS</h2>
+                <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. 
+                    <br>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
+                </p>
+            </article>
+
+            <section class="special-events">
+                <div class="special-events-container">
+                    <h2>Special Events</h2>
+
+                    <div class="events-grid">
+                        <article class="event-card">
+                            <img src="images/teacher-2816112.jpg" alt="Professor of Aeronautics">
+                            <div class="event-card-content">
+                                <h3>Visiting Professor of Aeronautics</h3>
+                                <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting 'space'.</p>
+                            </div>
+                        </article>
+
+                        <article class="event-card">
+                            <img src="images/toa-heftiba-412579.jpg" alt="Dinosaur in the museum">
+                            <div class="event-card-content">
+                                <h3>Night in the Museum</h3>
+                                <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
+                            </div>
+                        </article>
+
+                        <article class="event-card">
+                            <img src="images/open-science-735787.jpg" alt="Atom illustration">
+                            <div class="event-card-content">
+                                <h3>Energetica Exhibition on Loan</h3>
+                                <p>On loan from the NEMO Science Museum in Amsterdam, the Evergetica exhibition is coming to the Community Science Museum. It's a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to 'Wind Island' that shows how turbines are able to use and control wind to create power.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="for-kids">
+                <h2>FOR KIDS</h2>
+
+                <div class="kids-row">
+                    <p>Are you a young person looking to learn more about science? Come on down to our museum, there's plenty to see and do.
+                        <br>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
+                    </p>
+                    <img src="images/roberto-nickson-396152.jpg" alt="Mammoth statue">
+                </div>
+
+                <div class="kids-row kids-row-reverse">
+                    <p>We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you'll get to explore and experiment with our team of experts.
+                        <br>During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
+                    </p>
+                    <img src="images/reading-2762010_1280.jpg" alt="Kid reading about rocketships.">
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h2>Community Science Museum</h2>
+                    <p><a href="opening-times.html">See opening times</a></p>
+                    <p>(Address)</p>
+                    <p>(Org. nr:)</p>
+                    <p>(Phone nr)</p>
+                </div>
+
+                <div class="footer-col">
+                    <h2>THE MUSEUM</h2>
+                    <ul>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="venue-hire.html">Venue hire</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h2>SHORTCUTS</h2>
+                    <ul>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                        <li><a href="terms.html">Terms and conditions</a></li>
+                        <li><a href="cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
     
